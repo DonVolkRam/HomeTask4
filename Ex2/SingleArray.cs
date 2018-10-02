@@ -22,7 +22,7 @@ namespace Ex2
     /// </summary>
     class SingleArray
     {
-        private int[] a;
+        private int[] a; 
         Random rnd = new Random();
 
         /// <summary>

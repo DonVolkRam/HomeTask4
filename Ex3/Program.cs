@@ -21,7 +21,7 @@ namespace Ex3
             try
             {
                 Account Users = new Account();
-                if(Users.ReadLoginPassword()==false)
+                if(Users.ReadLoginPassword()==false) 
                     throw new Exception("Error load file");
                 string login;
                 string password;

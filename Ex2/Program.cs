@@ -24,8 +24,8 @@ namespace Ex2
         static void Main(string[] args)
         {
             SingleArray array1 = new SingleArray(10);
-            string filename1 = "array.txt";
-            string filename2 = "ReadArray.txt";
+            string filename1 = "Ex2_Array.txt";
+            string filename2 = "Ex2_ReadArray.txt";
 
             Console.WriteLine("Создание массива из случайных элементов");
             Console.WriteLine(array1.Print());

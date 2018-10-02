@@ -24,7 +24,7 @@ namespace Ex3
         /// <returns>Возарщает истину если считывание прошло успешно</returns>
         public bool ReadLoginPassword()
         {
-            string filename = "Users.txt";
+            string filename = "Ex3_Users.txt";
             string[] allFile;
             string[] temp;
             if (File.Exists(filename))

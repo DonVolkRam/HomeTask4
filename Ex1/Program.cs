@@ -22,7 +22,7 @@ namespace Ex1
         {
             int index = 20;
             int[] array = new int[index];
-            Random rnd = new Random();
+            Random rnd = new Random(); 
             int count3 = 0;
             Console.WriteLine("Создаем массив из 20 элементов\n");
             for (int i = 0; i < index; i++)

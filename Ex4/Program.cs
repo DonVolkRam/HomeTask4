@@ -27,11 +27,11 @@ namespace Ex4
             Console.WriteLine("Создание массива 15 на 10");
             DoubleArray Arr = new DoubleArray(15, 10);
             Console.WriteLine(Arr.ToString());
-            Console.WriteLine("Запись в файл Array.txt");
-            Arr.WriteToFile("Array.txt");
+            Console.WriteLine("Запись в файл Ex4_Array.txt");
+            Arr.WriteToFile("Ex4_Array.txt");
 
-            Console.WriteLine("Чтение из файла Array.txt");
-            DoubleArray Array = new DoubleArray("Array.txt");
+            Console.WriteLine("Чтение из файла Ex4_Array.txt");
+            DoubleArray Array = new DoubleArray("Ex4_Array.txt");
             Console.WriteLine(Array.ToString());
 
             Console.WriteLine("Сумма всех элементов = {0}", Array.Summ());
